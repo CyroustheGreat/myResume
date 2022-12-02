@@ -1,0 +1,152 @@
+/********** Global ************/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f8e4ff;
+  font-size: 18px;
+  color: #343434;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 45px;
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a {
+  color: #ffe66d;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  width: 950px;
+  margin: 0 auto;
+}
+/********** Profile ***********/
+header {
+  text-align: center;
+  padding: 50px 300px 20px; /*T LR B*/
+  background-color: #054385;
+  color: #fffef7;
+  font-weight: 300;
+}
+header h1 {
+  padding-bottom: 20px;
+}
+header h2 p {
+  margin: 0;
+}
+
+/********* CODE SKILLS ***********/
+.codeSkills {
+  background-color: #0decd1;
+  padding: 50px 300px 20px;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+details p {
+  padding-left: 20px;
+  margin-top: 0;
+}
+/****** WORK EXPERIENCE *******/
+.experiences {
+  background-color: #a2ec0d;
+
+  padding: 50px 300px 20px;
+}
+
+.experiences p {
+  margin: 0;
+}
+
+.myfield {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.durationdate {
+  font-style: italic;
+}
+
+.experiences .myfield {
+  margin-bottom: 20px;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-bottom: 1px dashed #343434;
+  padding: 20px;
+}
+
+.job-item:last-of-type {
+  border-bottom: none;
+}
+
+.job-summary p {
+  margin-top: 20px;
+}
+
+/********* EDUCATION **********/
+/*.educations {
+  background-color: #cbe4e8;
+  color: #2f3061;
+  padding: 50px 300px 50px;
+}*/
+
+.educations {
+  background-image: url(/placeholderimages/educations.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding: 50px 300px 100px;
+}
+.educations p {
+  margin: 0 0;
+  width: 480px;
+}
+
+.educations h3 {
+  margin-bottom: 10px;
+  width: 480px;
+}
+
+/********** CONTACT ***********/
+footer {
+  background-color: #343434;
+  color: #fffef7;
+  padding: 20px 300px 20px;
+}
